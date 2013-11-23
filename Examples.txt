@@ -1,0 +1,20 @@
+
+Open a file or folder with a name containing Card ID:
+python COMmands.py start start *%c*
+
+Open URL in browser:
+python COMmands.py start start http://google.com/search?q=%c
+
+Start a script:
+python COMmands.py start start cmd /c dump.cmd %c
+
+See program options:
+python COMmands.py help
+
+Just print everything that comes from a serial port, line by line:
+python COMmands.py
+
+If you don't have Python installed and don't want to, use:
+COMmands.exe
+instead of
+python COMmands.py
